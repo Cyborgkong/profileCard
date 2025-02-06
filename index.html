@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-card">
+        <img src="#" alt="Profile Picture" class="profile-pic" data-testid="profilePicture">
+        <h2 data-testid="fullName">Adam Moses</h2>
+        <h3 data-testid="jobTitle">Frontend Developer</h3>
+        <p data-testid="shortBio">I am a passionate frontend developer eager to create beautiful and responsive web experiences.</p>
+        <p data-testid="currentLocation">Jos, Nigeria</p>
+        <p>Email: <a href="mailto:adammoses322@gmail.com" data-testid="emailAddress">adammoses322@gmail.com</a></p>
+        <div class="social-links" data-testid="socialLinks">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Twitter</a>
+        </div>
+        <p id="utc-time" data-testid="currentTimeUTC"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
