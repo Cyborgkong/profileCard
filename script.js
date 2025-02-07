@@ -5,8 +5,6 @@ function updateUTCTime() {
     utcTimeElement.textContent = `Current UTC Time: ${utcTime}`;
 }
 
-// Update UTC time every second
 setInterval(updateUTCTime, 1000);
 
-// Call function on page load
 updateUTCTime();
